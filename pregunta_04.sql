@@ -40,4 +40,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT * FROM tbl1 ORDER BY c14 LIMIT 5;
+SELECT K0, c16 FROM tbl1 WHERE K0 = SUBSTR(c16, 1, 1)
